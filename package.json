@@ -1,6 +1,7 @@
 {
   "name": "@mylinedchart/mcp-chart-context",
-  "version": "0.1.0",
+  "version": "0.1.1",
+  "mcpName": "com.mylinedchart/chart-context",
   "description": "Read-only MCP server exposing your live MyLinedChart desktop chart/workspace context to local AI agents.",
   "type": "module",
   "main": "index.mjs",
