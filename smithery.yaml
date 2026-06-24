@@ -1,0 +1,15 @@
+startCommand:
+  type: stdio
+  configSchema:
+    type: object
+    required: []
+    properties:
+      contextFile:
+        type: string
+        description: Optional override path to the MyLinedChart agent-context.json file
+  commandFunction: |-
+    (config) => ({
+      command: 'npx',
+      args: ['-y', '@mylinedchart/mcp-chart-context'],
+      env: config.contextFile ? { MLC_CONTEXT_FILE: config.contextFile } : {}
+    })

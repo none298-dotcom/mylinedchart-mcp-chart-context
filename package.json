@@ -1,0 +1,17 @@
+{
+  "name": "@mylinedchart/mcp-chart-context",
+  "version": "0.1.0",
+  "description": "Read-only MCP server exposing your live MyLinedChart desktop chart/workspace context to local AI agents.",
+  "type": "module",
+  "main": "index.mjs",
+  "bin": { "mlc-mcp": "./index.mjs" },
+  "files": ["index.mjs", "README.md", "LICENSE"],
+  "scripts": { "start": "node index.mjs" },
+  "engines": { "node": ">=18" },
+  "dependencies": { "@modelcontextprotocol/sdk": "^1.29.0" },
+  "homepage": "https://mylinedchart.com/mcp",
+  "repository": { "type": "git", "url": "git+https://github.com/none298-dotcom/mylinedchart-mcp-chart-context.git" },
+  "bugs": { "url": "https://mylinedchart.com/resources/help-center" },
+  "keywords": ["mcp","model-context-protocol","trading","ibkr","interactive-brokers","charting","chart-context","ai-agents","claude","read-only"],
+  "license": "MIT"
+}
